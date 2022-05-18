@@ -857,7 +857,7 @@ text-decoration: none;
        letter-spacing: 0.03em;
          color: #757575;
      }
-     .checkbox:checked + .modal-window__checkbox-icon {
+     .form__policy--checkbox:checked + .modal-window__checkbox-icon {
        background-color: var(--accent-color);
       background-image: url(../images/gaaal.svg);
        background-size: contain;
