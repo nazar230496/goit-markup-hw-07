@@ -20,54 +20,55 @@
     <header class="header">
     
     
-        <div class="container main-nav">
+        <div class="container header-container">
             <nav class="header-nav">
     
-                <a class="logo link" href="./">
-                    Web<span class="header-logo">Studio</span>
+                <a class="header__logo link" href="./">
+                    Web<span class="header__logo--accent">Studio</span>
                 </a>
     
-                <ul class="site-nav list">
-                    <li class="nav-iteam"><a class="link-nav   link" href="./index.html">Студия</a></li>
-                    <li class="nav-iteam"><a class="link-nav link-nav-aktiv  link" href="./portfolio.html">Портфолио</a></li>
-                    <li class="nav-iteam"><a class="link-nav  link" href="">Контакты</a></li>
+                <ul class="header-list list">
+                    <li class="header-list__item"><a class="header-list__link link "
+                            href="./index.html">Студия</a></li>
+                    <li class="header-list__item"><a class="header-list__link header-list__link--aktiv  link" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="header-list__item"><a class="header-list__link  link" href="">Контакты</a></li>
                 </ul>
     
             </nav>
     
-            <ul class="adress-nav list">
-                <li class="adress-iteam">
-                    <a class="mail-nav link" href="mailto:info@devstudio.com">
-                        <svg class="icon-contact link-icon" width="16" height="12">
+            <ul class="contact list">
+                <li class="contact__iteam">
+                    <a class="contact__link link contacts__link-mail" href="mailto:info@devstudio.com">
+                        <svg class="contact__icon " width="16" height="12">
                             <use href="./images/symbol-defs.svg#icon-envelope"></use>
                         </svg>info@devstudio.com</a>
                 </li>
-                <li class="adress-iteam">
-                    <a class="tel-nav link" href="tel:+380991111111">
-                        <svg class="icon-contact link-icon" width="10" height="16">
+                <li class="contact__iteam">
+                    <a class="contact__link link contacts__link-phone" href="tel:+380991111111">
+                        <svg class="contact__icon " width="10" height="16">
                             <use href="./images/symbol-defs.svg#icon-smartphone"></use>
                         </svg>+38 096 111 11 11</a>
                 </li>
             </ul>
         </div>
-    
-    </header>
+        </header>
                                              <!-- мейн-->
         <main class="main-portfolio">
-            <section class="section">
+            <section class="section portfolio">
                 <div class="container">
                 <h1 class="visually-hidden"> Чим ми займаємось </h1>
                 
-                <ul class="portfolio-nav list">
-                    <li class="portfolio-nav-item" ><button class="portfolio-btn" type="button">Все</button></li>
-                    <li class="portfolio-nav-item" ><button class="portfolio-btn" type="button">Веб-сайты</button></li>
-                    <li class="portfolio-nav-item" ><button class="portfolio-btn" type="button">Приложения</button></li>
-                    <li class="portfolio-nav-item" ><button class="portfolio-btn" type="button">Дизайн</button></li>
-                    <li class="portfolio-nav-item"  class=""><button class="portfolio-btn" type="button">Маркетинг</button></li>
+                <ul class="portfolio__list--btn list">
+                    <li class="portfolio__list--item" ><button class="portfolio__btn" type="button">Все</button></li>
+                    <li class="portfolio__list--item" ><button class="portfolio__btn" type="button">Веб-сайты</button></li>
+                    <li class="portfolio__list--item" ><button class="portfolio__btn" type="button">Приложения</button></li>
+                    <li class="portfolio__list--item" ><button class="portfolio__btn" type="button">Дизайн</button></li>
+                    <li class="portfolio__list--item"  class=""><button class="portfolio__btn" type="button">Маркетинг</button></li>
                 </ul>
-                <ul class="examples-work list">
-                    <li class="examples-work-item">
-                        <a class="examples-work-link link" href="">
+                <ul class="portfolio-cards list">
+                    <li class="portfolio-cards__element">
+                        <a class="portfolio-cards__link link" href="">
                             <div class="portfolio-cards__image">
                             <img class="img-portfo" src="./images/технокряк.jpg" alt="технокряк" width="370">
                             <div class="produck-overlay">
@@ -79,14 +80,14 @@
                             </div>
                             </div>
                         </div>
-                            <div class="examples-work-title">
-                            <h2 class="portfolio-title">Технокряк</h2>
-                            <p class="portfolio-subtitle">Веб-сайт</p>
+                            <div class="portfolio-block">
+                            <h2 class="portfolio-block__title">Технокряк</h2>
+                            <p class="portfolio-block__description">Веб-сайт</p>
                             </div>
                         </a>
                     </li>
-                    <li class="examples-work-item">
-                        <a class="examples-work-link link" href="">
+                    <li class="portfolio-cards__element">
+                        <a class="portfolio-cards__link link" href="">
                             <div class="portfolio-cards__image">
                             <img src="./images/new-orlean.jpg" alt="Постер New Orlean vs Golden Star" width="370">
                             <div class="produck-overlay">
@@ -99,13 +100,13 @@
                                 </div>
                             </div>
                             </div>
-                            <div class="examples-work-title">
-                            <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
-                            <p class="portfolio-subtitle">Дизайн</p>
+                            <div class="portfolio-block">
+                            <h2 class="portfolio-block__title">Постер New Orlean vs Golden Star</h2>
+                            <p class="portfolio-block__description">Дизайн</p>
                             </div>
                         </a>
                     </li>
-                    <li class="examples-work-item"> <a class=" examples-work-link link" href="">
+                    <li class="portfolio-cards__element"> <a class=" portfolio-cards__link link" href="">
                             <div class="portfolio-cards__image">
                         <img src="./images/deafood.jpg" alt="Ресторан Seafood" width="370">
                             <div class="produck-overlay">
@@ -118,13 +119,13 @@
                                 </div>
                             </div>
                             </div>
-                            <div class="examples-work-title">
-                            <h2 class="portfolio-title">Ресторан Seafood</h2>
-                            <p class="portfolio-subtitle">Приложение</p>
+                            <div class="portfolio-block">
+                            <h2 class="portfolio-block__title">Ресторан Seafood</h2>
+                            <p class="portfolio-block__description">Приложение</p>
                             </div>
                         </a>
                     </li>
-                    <li class="examples-work-item"> <a class="examples-work-link link" href="">
+                    <li class="portfolio-cards__element"> <a class="portfolio-cards__link link" href="">
                             <div class="portfolio-cards__image">
                         <img src="./images/prime.jpg" alt="Проект Prime" width="370">
                             <div class="produck-overlay">
@@ -137,13 +138,13 @@
                                 </div>
                             </div>
                             </div>
-                        <div class="examples-work-title">
-                            <h2 class="portfolio-title">Проект Prime</h2>
-                            <p class="portfolio-subtitle">Маркетинг</p>
+                        <div class="portfolio-block">
+                            <h2 class="portfolio-block__title">Проект Prime</h2>
+                            <p class="portfolio-block__description">Маркетинг</p>
                         </div>
                         </a>
                     </li>
-                    <li class="examples-work-item"><a class="examples-work-link link" href="">
+                    <li class="portfolio-cards__element"><a class="portfolio-cards__link link" href="">
                             <div class="portfolio-cards__image">
                         <img src="./images/boxes.jpg" alt="Проект Boxes" width="370">
                             <div class="produck-overlay">
@@ -156,13 +157,13 @@
                                 </div>
                             </div>
                             </div>
-                        <div class="examples-work-title">
-                            <h2 class="portfolio-title">Проект Boxes</h2>
-                            <p class="portfolio-subtitle">Приложение</p>
+                        <div class="portfolio-block">
+                            <h2 class="portfolio-block__title">Проект Boxes</h2>
+                            <p class="portfolio-block__description">Приложение</p>
                             </div>
                         </a>
                     </li>
-                    <li class="examples-work-item"><a class="examples-work-link link" href="">
+                    <li class="portfolio-cards__element"><a class="portfolio-cards__link link" href="">
                             <div class="portfolio-cards__image">
                         <img src="./images/boarders.jpg" alt="Inspiration has no Borders" width="370">
                             <div class="produck-overlay">
@@ -175,14 +176,14 @@
                                 </div>
                             </div>
                             </div>
-                        <div class="examples-work-title">
-                            <h2 class="portfolio-title">Inspiration has no Borders</h2>
-                            <p class="portfolio-subtitle">Веб-сайт</p>
+                        <div class="portfolio-block">
+                            <h2 class="portfolio-block__title">Inspiration has no Borders</h2>
+                            <p class="portfolio-block__description">Веб-сайт</p>
                             </div>
                         </a>
                     </li>
-                    <li class="examples-work-item">
-                        <a class="examples-work-link link" href="">
+                    <li class="portfolio-cards__element">
+                        <a class="portfolio-cards__link link" href="">
                             <div class="portfolio-cards__image">
                         <img src="./images/limited-edition.jpg" alt="Издание Limited Edition" width="370">
                             <div class="produck-overlay">
@@ -195,13 +196,13 @@
                                 </div>
                             </div>
                             </div>
-                        <div class="examples-work-title">
-                            <h2 class="portfolio-title">Издание Limited Edition</h2>
-                            <p class="portfolio-subtitle">Дизайн</p>
+                        <div class="portfolio-block">
+                            <h2 class="portfolio-block__title">Издание Limited Edition</h2>
+                            <p class="portfolio-block__description">Дизайн</p>
                             </div>
                         </a>
                     </li>
-                    <li class="examples-work-item"><a class="examples-work-link link" href="">
+                    <li class="portfolio-cards__element"><a class="portfolio-cards__link link" href="">
                             <div class="portfolio-cards__image">
                         <img src="./images/lab.jpg" alt="Проект LAB" width="370">
                         <div class="produck-overlay">
@@ -214,13 +215,13 @@
                             </div>
                         </div>
                         </div>
-                        <div class="examples-work-title">
-                            <h2 class="portfolio-title">Проект LAB</h2>
-                            <p class="portfolio-subtitle">Маркетинг</p>
+                        <div class="portfolio-block">
+                            <h2 class="portfolio-block__title">Проект LAB</h2>
+                            <p class="portfolio-block__description">Маркетинг</p>
                             </div>
                         </a>
                     </li>
-                    <li class="examples-work-item"> <a class="examples-work-link link" href="">
+                    <li class="portfolio-cards__element"> <a class="portfolio-cards__link link" href="">
                             <div class="portfolio-cards__image">
                         <img src="./images/businness.jpg" alt="Growing Business" width="370">
                         <div class="produck-overlay">
@@ -233,9 +234,9 @@
                             </div>
                         </div>
                         </div>
-                        <div class="examples-work-title">
-                            <h2 class="portfolio-title">Growing Business</h2>
-                            <p class="portfolio-subtitle">Приложение</p>
+                        <div class="portfolio-block">
+                            <h2 class="portfolio-block__title">Growing Business</h2>
+                            <p class="portfolio-block__description">Приложение</p>
                             </div>
                         </a>
                     </li>
@@ -246,52 +247,65 @@
                                 
                                                             <!-- футер-->
             <footer class="footer">
-                <div class="container footer-div">
-                    <div class=" ">
-                        <a class="logo-ft link" href="./">
-                            Web<span class="footer-logo">Studio</span>
+                <div class="container footer__container">
+                    <div class="footer__reach">
+                        <a class="footer__logo link" href="./">
+                            Web<span class="footer__logo--accent">Studio</span>
                         </a>
-                        <address class="address">
-                            <ul class="footer-list list">
-                                <li class="address-item iteam">
-                                    <a class="footer-address link"
+                        <address class="footer__address">
+                            <ul class="footer__list list">
+                                <li class="footer__item iteam">
+                                    <a class="footer__link link"
                                         href="https://www.google.com.ua/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265841,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858?hl=ru">г.
                                         Киев, пр-т Леси Украинки, 26</a>
             
                                 </li>
-                                <li class="address-item iteam">
-                                    <a class="footer-link-mail link " href="mailto:info@devstudio.com">info@devstudio.com</a>
+                                <li class="footer__item iteam">
+                                    <a class="footer__link--mail link " href="mailto:info@devstudio.com">info@devstudio.com</a>
                                 </li>
-                                <li class="address-item iteam"><a class="footer-link link" href="tel:+380991111111">+38 096 111 11
-                                        11</a>
+                                <li class="footer__item iteam"><a class="footer__link--tel link" href="tel:+380991111111">+38 096
+                                        111 11 11</a>
                                 </li>
                             </ul>
                         </address>
                     </div>
-                    <div class="network-footer">
-                        <h3 class="footer-heading">присоединяйтесь</h3>
-                        <ul class="network-list list">
-                            <li class="network-iteam"><a href="" class="network-link">
+                    <div class="network__footer">
+                        <h3 class="footer__heading footer__heading--align ">присоединяйтесь</h3>
+                        <ul class="network__list list">
+                            <li class="network__iteam"><a href="" class="network__link">
                                     <svg class="link-icon" width="20" height="20">
                                         <use href="./images/symbol-defs.svg#icon-instagram"></use>
                                     </svg> </a>
                             </li>
-                            <li class="network-iteam"><a href="" class="network-link">
+                            <li class="network__iteam"><a href="" class="network__link">
                                     <svg class="link-icon" width="20" height="20">
                                         <use href="./images/symbol-defs.svg#icon-vector"></use>
                                     </svg> </a></li>
-                            <li class="network-iteam"><a href="" class="network-link">
+                            <li class="network__iteam"><a href="" class="network__link">
                                     <svg class="link-icon" width="20" height="20">
                                         <use href="./images/symbol-defs.svg#icon-facebook"></use>
                                     </svg> </a></li>
-                            <li class="network-iteam"><a href="" class="network-link">
+                            <li class="network__iteam"><a href="" class="network__link">
                                     <svg class="link-icon" width="20" height="20">
                                         <use href="./images/symbol-defs.svg#icon-in"></use>
                                     </svg> </a></li>
                         </ul>
             
                     </div>
+                    <div class="form__footer--div">
+                        <h3 class="footer__heading">Подпишитесь на рассылку</h3>
+                        <form class="form__foter">
+                            <div class="foter__form--iteam">
             
+                                <input class="footer-form__input" type="email" name="mail" id="mail" placeholder="E-mail">
+                                <button type="submit" class="form__footer--btn overlay__btn">Подписаться
+                                    <svg class="form__foter--icon" width="20" height="20">
+                                        <use href="./images/symbol-defs1.svg#icon-telegram"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
             
                 </div>
             </footer>
