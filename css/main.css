@@ -80,6 +80,12 @@ img {
   list-style: none;
 }
 
+@media (min-width: 800px) {
+  body {
+    background-color: orange;
+  }
+}
+
 .header {
   border-bottom: 1px solid #ececec;
 }
