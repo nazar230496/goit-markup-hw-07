@@ -80,18 +80,11 @@ img {
   list-style: none;
 }
 
-@media (min-width: 800px) {
-  body {
-    background-color: orange;
-  }
-}
-
 .header {
   border-bottom: 1px solid #ececec;
 }
 
 .header__logo {
-  /* fless */
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 93px;
